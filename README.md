@@ -1,7 +1,7 @@
-Mac ISATAP
+Mac ISATAP for SJTU students
 ==========
 
-ISATAP for OS X @ Tsinghua Univeristy
+ISATAP for OS X @ Shanghai Jiao Tong Univeristy
 
 	Usage: isatap COMMAND
 	

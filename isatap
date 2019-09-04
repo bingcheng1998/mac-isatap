@@ -10,9 +10,9 @@ function check_root {
 function isatap_on {
     check_root
     echo -n "Enabling ISATAP ... "
-    router=59.66.4.50
-    gateway=2001:da8:200:900e::1
-    prefix=2001:da8:200:900e::5efe
+    router=10.32.49.2
+    gateway=2403:d400:1001:20::1
+    prefix=2403:d400:1001:20::5efe
     inet4=`ifconfig | grep inet | grep -v inet6 | awk '{print $2}' | grep -v "^127.0.0.1$" | grep -v "^169.254" | grep -v "^192.168" | head -n 1`
     ifconfig gif0 destroy 2>/dev/null
     ifconfig gif0 create
